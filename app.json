@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "meuapp",
+    "slug": "meuapp",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "build": {
+        "outputDir": "web-build",
+        "html": {
+          "template": "public/index.html"
+        }
+      },
+      "sourceExts": [
+        "js",
+        "jsx"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6d6bda22-37e5-4203-bfad-e97672f22728"
+      }
+    }
+  }
+}
