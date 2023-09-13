@@ -26,7 +26,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.evertonlima365.meuapp"
     },
     "web": {
       "build": {
@@ -44,6 +45,12 @@
       "eas": {
         "projectId": "6d6bda22-37e5-4203-bfad-e97672f22728"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/6d6bda22-37e5-4203-bfad-e97672f22728"
     }
   }
 }
